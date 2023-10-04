@@ -34,7 +34,7 @@ end
 local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
 
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/FancySans/FancyTale/main/ThemesV2"))()
+local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheOfficialFancy/VelocityUILibrary/main/Themes"))()
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
